@@ -45,9 +45,9 @@ A block-based min-max normalization was applied.
 
 Each subject block was normalized separately using min-max scaling to the range **[-1, 1]**:
 
-\[
+$$
 x' = 2 \cdot \frac{x - x_{min}}{x_{max} - x_{min}} - 1
-\]
+$$
 
 If the maximum and minimum values were equal, the normalized value was set to 0.
 
