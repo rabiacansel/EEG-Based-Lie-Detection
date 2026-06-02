@@ -1,6 +1,4 @@
-# EEG-Based Lie Detection Using Wavelet Decomposition and Deep Learning
-
-## Level-5 Wavelet Decomposition and Deep Learning Architectures for EEG-Based Lie Detection: A Comparative Study on the LieWaves Dataset
+# Level-5 Wavelet Decomposition and Deep Learning Architectures for EEG-Based Lie Detection: A Comparative Study on the LieWaves Dataset
 
 ## Dataset and Preprocessing
 
