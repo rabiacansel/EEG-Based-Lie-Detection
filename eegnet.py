@@ -33,9 +33,9 @@ np.random.seed(SEED)
 tf.random.set_seed(SEED)
 random.seed(SEED)
 
-train_file = r"C:\Users\r4bi4\Desktop\lie_detection\revizyon_dwt\data\normalization\db4_lv5\S27\features_normalization_train.csv"
-test_file  = r"C:\Users\r4bi4\Desktop\lie_detection\revizyon_dwt\data\normalization\db4_lv5\S27\features_normalization_test.csv"
-label_file = r"C:\Users\r4bi4\Desktop\lie_detection\processing_label.xlsx"
+train_file = "features_normalization_train.csv"
+test_file  = "features_normalization_test.csv"
+label_file = "processing_label.xlsx"
 
 # ---------------- READ DATA ----------------
 train_df = pd.read_csv(train_file)
