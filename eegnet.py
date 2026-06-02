@@ -33,9 +33,9 @@ np.random.seed(SEED)
 tf.random.set_seed(SEED)
 random.seed(SEED)
 
-train_file = "features_normalization_train.csv"
-test_file  = "features_normalization_test.csv"
-label_file = "processing_label.xlsx"
+train_file = "\S1\features_normalization_train.csv"
+test_file  = "\S1\features_normalization_test.csv"
+label_file = "\S1\processing_label.xlsx"
 
 # ---------------- READ DATA ----------------
 train_df = pd.read_csv(train_file)
