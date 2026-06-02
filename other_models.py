@@ -25,9 +25,9 @@ np.random.seed(SEED)
 tf.random.set_seed(SEED)
 random.seed(SEED)
 
-train_file = r"C:\Users\r4bi4\Desktop\lie_detection\revizyon_dwt\data\normalization\db4_lv5\S2\features_normalization_train.csv"
-test_file  = r"C:\Users\r4bi4\Desktop\lie_detection\revizyon_dwt\data\normalization\db4_lv5\S2\features_normalization_test.csv"
-label_file = r"C:\Users\r4bi4\Desktop\lie_detection\processing_label.xlsx"
+train_file = "\S1\features_normalization_train.csv"
+test_file  = "\S1\features_normalization_test.csv"
+label_file = "processing_label.xlsx"
 
 # Verileri oku
 train_df = pd.read_csv(train_file)
